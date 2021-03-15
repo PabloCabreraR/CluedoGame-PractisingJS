@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>CLUEDO</title>
+</head>
+<body>
+    <h1>Cluedo</h1>
+    <div id='guessLine'>
+        <input type="text" placeholder="Suspect" id="suspect"/>
+        <p>killed Mr. Boddy in the </p>
+        <input type="text" placeholder="Room" id="room" />
+        <p>with the </p>
+        <input type="text" placeholder="Weapon" id="weapon" />
+    </div>
+    <button class='Guess'>Guess</button>
+    <button class='Solution' onclick="guessCorrect()">Solution</button>
+    <script src="app.js"></script>
+</body>
+</html>
